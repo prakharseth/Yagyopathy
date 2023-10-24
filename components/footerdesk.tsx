@@ -16,7 +16,7 @@ const Footerdesk: NextPage<FooterdeskType> = ({ footerdeskWidth }) => {
 
   return (
     <div
-      className="w-full bg-white box-border overflow-hidden flex flex-row items-start justify-between max-w-[1280px] text-left text-sm text-darkslategray-200 font-body-2 border-t-[1px] border-solid border-gray-400"
+      className="lg:flex md:hidden sm:hidden w-full bg-white box-border overflow-hidden flex flex-row items-start justify-between max-w-[1280px] text-left text-sm text-darkslategray-200 font-body-2 border-t-[1px] border-solid border-gray-400"
       style={footerdeskStyle}
     >
       <div className="self-stretch w-[398px] overflow-hidden shrink-0 flex flex-col items-start justify-center py-[107px] px-[100px] box-border">
