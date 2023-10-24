@@ -24,7 +24,7 @@ const Screen2: NextPage = () => {
               <img
                 className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                 alt=""
-                src="/imagemob022@2x.png2x.png"
+                src="/imagemob022@2x.png"
                 // src="https://yagyopathy.vercel.app/imagemob02@2x.png"
               />
             </div>
