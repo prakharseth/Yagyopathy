@@ -1,3 +1,5 @@
+/** @format */
+
 import type { NextPage } from "next";
 import Header from "../components/header";
 import ContactUs from "../components/contact-us";
@@ -22,7 +24,8 @@ const Screen2: NextPage = () => {
               <img
                 className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                 alt=""
-                src="/imagemob02@2x.png"
+                // src="/imagemob02@2x.png"
+                src="https://yagyopathy.vercel.app/imagemob02@2x.png"
               />
             </div>
             <div className="self-stretch bg-white flex flex-col items-center justify-center py-5 px-0">

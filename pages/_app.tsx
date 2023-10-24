@@ -1,3 +1,5 @@
+/** @format */
+
 import { Fragment } from "react";
 import Head from "next/head";
 import type { AppProps } from "next/app";
@@ -7,7 +9,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>FinalProject</title>
+        <title>Yagyopathy</title>
+        <link rel="icon" href="/yagya.svg" sizes="any" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

@@ -7,6 +7,7 @@ import React from "react";
 import { cn } from "../utils/cn";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Logo from "./logo";
 
 type Props = {};
 
@@ -35,10 +36,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="self-stretch bg-white h-24 flex flex-row items-center justify-between py-5 px-[60px] box-border text-center text-5xl text-darkslategray-100 font-body-2 lg:flex md:flex sm:flex">
-        <div className="rounded w-[170px] flex flex-row items-center justify-center p-2.5 box-border">
-          <div className="flex-1 relative font-semibold">Yagyopathy</div>
-        </div>
+      <header className=" max-w-[1060px]   min-w-full  mx-auto self-stretch bg-white h-24 flex flex-row items-center justify-between py-5 px-[80px] box-border text-center text-5xl text-darkslategray-100 font-body-2 lg:flex md:flex sm:flex">
+        <Logo />
         <div
           className="flex flex-col items-center justify-center gap-[8px] cursor-pointer"
           onClick={openNav1}
