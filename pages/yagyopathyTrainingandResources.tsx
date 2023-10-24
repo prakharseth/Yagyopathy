@@ -139,7 +139,7 @@ const Screen4: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-white flex flex-col items-center justify-start pt-5 px-20 pb-0 gap-[40px] text-29xl lg:flex">
+      <div className="lg:flex md:hidden sm:hidden self-stretch bg-white flex flex-col items-center justify-start pt-5 px-20 pb-0 gap-[40px] text-29xl lg:flex">
         <div className="w-full flex flex-col items-center justify-start gap-[80px] max-w-[1280px]">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[58px] font-medium">
