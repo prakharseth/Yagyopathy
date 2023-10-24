@@ -91,7 +91,7 @@ const Screen1: NextPage = () => {
                 <img
                   className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover lg:w-[463px] lg:h-[377px]"
                   alt=""
-                  src="/imagemob02@2x.png"
+                  src="/imagemob022@2x.png"
                 />
               </div>
               <div className="w-full flex flex-col items-center justify-start py-5 px-0 box-border gap-[20px] min-w-[358px] max-w-[470px]">
