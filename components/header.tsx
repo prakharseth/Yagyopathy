@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <>
-      <header className=" max-w-[1060px]   min-w-full  mx-auto self-stretch bg-white h-24 flex flex-row items-center justify-between py-5 px-[80px] box-border text-center text-5xl text-darkslategray-100 font-body-2 lg:flex md:flex sm:flex">
+      <header className=" max-w-[1060px]   min-w-full  mx-auto self-stretch bg-white h-24 flex flex-row items-center justify-between py-5 px-20 md:px-10 box-border text-center text-5xl text-darkslategray-100 font-body-2 lg:flex md:flex sm:flex">
         <Logo />
         <div
           className="flex flex-col items-center justify-center gap-[8px] cursor-pointer"
