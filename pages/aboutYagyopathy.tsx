@@ -24,8 +24,8 @@ const Screen2: NextPage = () => {
               <img
                 className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                 alt=""
-                // src="/imagemob02@2x.png"
-                src="https://yagyopathy.vercel.app/imagemob02@2x.png"
+                src="/imagemob02@2x.png"
+                // src="https://yagyopathy.vercel.app/imagemob02@2x.png"
               />
             </div>
             <div className="self-stretch bg-white flex flex-col items-center justify-center py-5 px-0">
@@ -205,7 +205,7 @@ const Screen2: NextPage = () => {
             </div>
           </div>
           <Property1ImageLeft
-            imageMob02="/imagemob0251@2x.png"
+            imageMob02="/imagemob02@2x.png"
             title="Journey Through Time"
             shortTitle="History of Yagyopathy"
             description="Delve into the rich history of Yagyopathy and trace its origins back to the Vedic traditions. Learn how this sacred practice has evolved over centuries to become a source of healing and spiritual growth."
